@@ -1,0 +1,60 @@
+
+div h1{
+	color: rgba(0,0,0,0.8);
+    text-shadow: rgb(211,211,211) 4px 6px 5px;
+    text-align: center;
+
+}
+
+#map{
+		display: block;
+		position: relative;
+		background: white url("../Pictures/Map.png") top left no-repeat;
+		float: left;
+		margin: auto 14%;
+		border: 1px solid black;
+        width: 70%;
+        height: 500px;
+		max-width: 1000px;
+		
+	}
+
+figure{
+		background-color: rgb(70, 76, 222);
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+		border-radius: 15px;
+		
+		color: white;
+		width: 200px;
+        height: auto;
+		position: absolute;
+		z-index: 1;
+		clip: rect(0, 40px, 40px, 0px);
+	}
+    
+
+	figure:hover{ clip: auto; z-index: 2;}
+	
+	figure figcaption{ margin: 10px; font-size: 12px;}
+	
+	figcaption time {color: yellow;}
+	
+#point0{ top: 350px; left: 460px;}
+#point1{ top: 200px; left: 440px;}
+#point2{ top: 210px; left: 405px;}
+#point3{ top: 175; left: 410px;}
+#point4{ top: 400px; left: 30px;}
+#point5{ top: 210px; left: 525px;}
+#point6{ top: 195px; left: 485px;}
+#point8{ top: 175px; left: 520px;}
+#point7{ top: 50px; left: 390px;}
+
+
+#projects{
+    background: rgb(104,193,253);
+    border-radius: 20px;
+    padding-left:  10px;
+    padding-right: 10px;
+}
+	

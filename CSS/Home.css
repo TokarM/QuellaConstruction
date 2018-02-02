@@ -1,0 +1,39 @@
+
+
+#bigImage{
+    display: block;
+    width: 97%;
+    height: 400px;
+    margin-left: 15px;
+    
+}
+section {
+    width: 70%;
+    display: block;
+    margin: auto 15%;
+    
+}
+div h1{
+    color: #e5b626;
+    text-shadow: rgb(211,211,211) 4px 6px 5px;
+    text-align: center;
+}
+#home{
+    background: rgb(104,193,253);
+    border-radius: 20px;
+    padding-left:  10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

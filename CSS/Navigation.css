@@ -1,0 +1,48 @@
+header,section,nav,footer {
+    display: block;
+}
+body{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    width: 100%;
+	min-width: 950px;
+	
+}
+#logo{
+    float: left;
+    width: 23%;
+    height: auto;
+    margin-bottom: 20px;
+}
+    
+nav {
+    float: left;  
+    margin-top: 30px;
+    margin-bottom: 90px;
+    margin-right: 50px;
+    width: 70%;
+    text-align: center;
+    height: 115px;
+    
+    
+}  
+nav ul li{
+    display: inline-block;
+    margin: auto 5px;
+    font-size: 1.3em;
+    
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 5px ;
+    color: black;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid grey;
+    
+}  
+
+a.current:link, a.current:visited {
+  color: white;
+  background-color: blue;
+}

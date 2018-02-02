@@ -1,0 +1,30 @@
+
+#team{
+    display: block;
+    border: 2px solid grey;
+    width: 90%;
+    height: 250px;
+    float: left;
+    margin: 10px 4%;
+    background: rgba(0,0,0,0.2);
+    box-shadow: rgba(0, 0, 0, 0.2) -10px -10px 15px;
+
+}
+#team img{
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+#team h2{
+    text-align: center;
+}
+#team p{
+   display: block;
+   text-align: left;
+}
+#ourTeam{
+    background: rgb(104,193,253);
+    border-radius: 20px;
+    padding-left:  10px;
+    padding-right: 10px;
+}
